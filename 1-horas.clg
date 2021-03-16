@@ -1,0 +1,20 @@
+algoritmo horas;
+// Síntese
+//  Objetivo:  Correspondente de horas em minutos e segundos destas horas
+//  Entrada : horas
+//  Saída   : correspondente em minutos e segundos
+principal
+	// Declarações
+	inteiro horas, minutos, segundos;
+	// Instruções
+	// Entrada
+	escreva("Informe um número inteiro de horas: ");
+	leia(horas);
+	// Processamento
+	minutos = horas * 60;
+	segundos = minutos * 60;
+	// Saída
+	escreval("Em minutos, isso equivale a: " , minutos);
+	escreval("Em segundos, isso equivale a: ", segundos);
+
+fimPrincipal

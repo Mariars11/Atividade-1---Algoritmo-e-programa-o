@@ -1,0 +1,22 @@
+algoritmo quantidadeRolos;
+// Síntese
+//  Objetivo: Descobrir a quantidade de rolos 
+//  Entrada : Quantidade de metro dos fios 
+//  Saída   : Quantidade de rolos
+
+
+principal
+	// Declarações
+	inteiro rolos, metro;
+
+	// Instruções
+	//Entrada
+	escreva("Informe a quantidade total de metros do fio: ");
+	leia(metro);
+	//Processamento
+	rolos = metro / 50;
+	
+	//Saída
+	escreva("A quantidade de rolos é: ", rolos);
+
+fimPrincipal

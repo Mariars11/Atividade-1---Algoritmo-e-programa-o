@@ -1,0 +1,22 @@
+algoritmo pesoNota;
+// Síntese
+//  Objetivo:  calcular a média do aluno
+//  Entrada : notas
+//  Saída   : media
+
+
+principal
+	// Declarações
+	real A, B, media;
+	// Instruções
+	//entrada
+	escreva("Informe a nota A: ");
+	leia (A);
+	escreva ("Informe a nota B: ");
+	leia(B);
+	//processamento
+	media = (A * 3.5 + B * 7.5)/11;
+	//saida
+	escreval("O valor da média é: ", media);
+
+fimPrincipal
